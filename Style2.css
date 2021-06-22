@@ -1,0 +1,11 @@
+:root {
+    --primary: #FFFFF0;
+    --secondary: #CA9393;
+    --tertiary: black;
+    --font: menlo;
+}
+
+body {
+    background-color: var(--primary);
+    
+}
