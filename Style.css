@@ -38,8 +38,6 @@ H1 {
    list-style: none;
    right: 0px;
    top: 30px;
-   flex: var(--flex);
-
 }
 
 
@@ -119,11 +117,31 @@ section h2 {
     margin-left: 5%;
 }
 
+#project {
+    /* margin-right: 5%; */
+}
+
 .about p{
     margin-left: 5%;
 }
 
 
+@media screen and (max-width: 1300px) {
+    li a{
+      font-size: 30px;
+    }
+}
 
 
 
+@media screen and (max-width: 1200px) {
+    li a{
+      font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    li a{
+      font-size: 20px;
+    }
+}
