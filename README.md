@@ -6,4 +6,8 @@
 
 ### Link to Website: [https://pcon27.github.io/Consagra-Personal-Website-Repo/]
 
-### Preview of the code:
+
+
+
+
+### Preview of the code: ![alt text](https://github.com/Pcon27/Consagra-Personal-Website-Repo/blob/main/preview%20of%20code.png?raw=true)
