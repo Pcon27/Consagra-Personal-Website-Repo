@@ -12,29 +12,43 @@ body {
     font-family: var(--font);
     font-weight: var(--normal);
     font-style: var(--normal);
+    /* border: solid black; */
+    width: 100vw;
+    /* position: absolute; */
 }
+
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: var(--secondary);
     align-items: center;
-    padding-left: 2.5%;
-    padding-right: 7%;
+    width: 100vw;
+    /* border: solid black; */
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 250%;
+    margin-left: 5%;
     font-style: var(--normal);
     font-weight: var(--normal);
     color: var(--primary);
+    /* border: solid black; */
 }
 
 ul {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     list-style: none;
-    justify-content: space-between;
-    min-width: 100%;
+    justify-content: flex-end;
+    /* margin-left: 10%; */
+    margin-right: 0;
+    /* border: solid black; */
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+    /* border: solid black; */
 }
 
 ul a{
@@ -93,8 +107,59 @@ section h2 {
     margin-left: 2.5%;
 }
 
-        
+.contact p{
+    margin-left: 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+body {
+    width: 100vw;
+}
+
+    header, section{
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-between;
+    /* border: solid black; */
+    /* width: 100%; */
+    /* align-content: center; */
+}
+
+ul li {
+    color: var(--tertiary);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-top: solid black; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    /* width: 10%; */
+
+
+}
+
+ul a{
+    /* height: 100%;
+    width: 1000px; */
+    position: relative;
+    font-size: 150%;
+    /* border: solid black; */
+    /* color: var(--tertiary); */
+    text-decoration: none;
+}
  
-
-
+.other-projects{
+    display: flex;
+    /* width: 120%; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
 
